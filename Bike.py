@@ -45,7 +45,7 @@ df.head()
 ### Assessing Data
 """
 
-st.dataframe(df.info())
+st.dataframe(info())
 
 """selanjutnya kita mencek info yang terdapat dalam data untuk melihat type data dan total data yang ada
 

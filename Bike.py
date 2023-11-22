@@ -30,6 +30,7 @@ from pandas import DataFrame
 import matplotlib.pyplot as plt
 # %matplotlib inline
 import seaborn as sns
+import streamlit as st
 
 """## Data Wrangling
 

@@ -36,7 +36,7 @@ import seaborn as sns
 ### Gathering Data
 """
 
-df = pd.read_csv('/content/day.csv', delimiter=",")
+df = pd.read_csv('day.csv', delimiter=",")
 df.head()
 
 """Meload data yang akan digunakan dengan menggunakan library pandas untuk meload file data berupa excel dengan format csv serta menampilkan 5 data teratas

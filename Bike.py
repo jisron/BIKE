@@ -44,8 +44,8 @@ df.head()
 
 ### Assessing Data
 """
-
-st.dataframe.info()
+dinf = df.info()
+st.dataframe.(dinf)
 
 """selanjutnya kita mencek info yang terdapat dalam data untuk melihat type data dan total data yang ada
 

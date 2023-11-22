@@ -113,9 +113,9 @@ sns.heatmap(df4, annot=True)
 """disini kita menggunakan heatmap untuk melihat nilai-nilai terbaik dalam data yang kita punya
 
 ### Pertanyaan 2:
-"""
 
 Bagaimana perubahan perilaku user dalam penggunaan sepeda?
+"""
 
 dfs2 = df.groupby(['yr','season']).agg({
     'temp': 'mean',
@@ -148,4 +148,3 @@ plt.gca().spines[['top', 'right']].set_visible(False)
 
   Berdasarkan pada data dua tahun terakhir dapat diketahui bahwa perilaku user dalam menggunakan sepeda lebih disukai pada saat keaadan cuaca hangat dan kondisi cuaca dalam keadaan relatif cerah, terlihat juga bahwa telah menjadi sebuah tren dalam penggunaan sepeda pada saat season 2 hingga season 3 sehingga dapat disediakan jumlah sepeda yang jauh lebih banyak dibandingkan pada saat season awal dan akhir tahun dikarenakan suhu udara cenderung lebih rendah dan keadaan cuaca tidak memungkinkan untuk bersepeda.
 """
-

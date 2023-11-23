@@ -106,6 +106,7 @@ df4['atemp'].plot(kind='line')
 df4['hum'].plot(kind='line')
 plt.gca().spines[['top', 'right']].set_visible(False)
 plt.legend()
+st.pyplot(plt)
 
 """disini kita melakukan visualisasi data dengan menggabungkan diagram garis dan batang agar data kita dapat mudah dicerna"""
 

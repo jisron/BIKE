@@ -89,7 +89,7 @@ st.code(code, language='python')
 ### Explore ...
 """
 
-df3.corr()
+st.code(df3.corr())
 
 """Selanjutnya kita melakukan analisi berdasarkan nilai korelasi tersebut, kita dapat menyimpulkan bahwa kolom windspeed di atas tidak memiliki korelasi karena nilainya mendekati nol.
 kita akan membuat dataframe baru tanpa menggunakan kolom windspeed

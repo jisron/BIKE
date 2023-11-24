@@ -53,7 +53,7 @@ st.table(df.head())
 ### Assessing Data
 """
 dfinfo = df.info()
-st.text('dtinfo')
+st.text(dtinfo)
 
 """selanjutnya kita mencek info yang terdapat dalam data untuk melihat type data dan total data yang ada
 

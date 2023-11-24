@@ -131,14 +131,14 @@ st.pyplot(heat.fig)
 Bagaimana perubahan perilaku user dalam penggunaan sepeda?
 """
 
-dfs2 = df.groupby(['yr','season']).agg({
+st.code('''dfs2 = df.groupby(['yr','season']).agg({
     'temp': 'mean',
     'atemp': 'mean',
     'hum': 'mean',
     'cnt':'mean',
 })
 dfs3 = dfs2.mask(dfs2>1,dfs2/10000).round(2)
-dfs3
+dfs3''')
 
 """disini kita melakukan pemilihan data agar daat digunakan sesuai dengan kebutuh data yang kita inginkan. Disini saya menggunakan data berdasarkan tahun dan musim"""
 

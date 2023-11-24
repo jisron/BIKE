@@ -52,7 +52,7 @@ st.table(df.head())
 
 ### Assessing Data
 """
-st.code(df.info())
+st.table(df.info())
 
 """selanjutnya kita mencek info yang terdapat dalam data untuk melihat type data dan total data yang ada
 

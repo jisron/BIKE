@@ -52,7 +52,7 @@ st.table(df.head())
 
 ### Assessing Data
 """
-st.echo(df.info())
+st.text(df.info())
 
 """selanjutnya kita mencek info yang terdapat dalam data untuk melihat type data dan total data yang ada
 

@@ -130,14 +130,14 @@ st.write(fig)
 Bagaimana perubahan perilaku user dalam penggunaan sepeda?
 """
 
-st.code('''dfs2 = df.groupby(['yr','season']).agg({
+dfs2 = df.groupby(['yr','season']).agg({
     'temp': 'mean',
     'atemp': 'mean',
     'hum': 'mean',
     'cnt':'mean',
 })
 dfs3 = dfs2.mask(dfs2>1,dfs2/10000).round(2)
-dfs3''')
+dfs3
 
 """disini kita melakukan pemilihan data agar daat digunakan sesuai dengan kebutuh data yang kita inginkan. Disini saya menggunakan data berdasarkan tahun dan musim"""
 
@@ -148,6 +148,7 @@ dfs3['atemp'].plot(kind='line')
 dfs3['cnt'].plot(kind='line')
 plt.legend()
 plt.gca().spines[['top', 'right']].set_visible(False)
+st.pyplot(plt)
 
 """Disini kita menampilkan grafik berdasarkan data yang telah kita pilih sebelumnya
 

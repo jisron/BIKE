@@ -31,6 +31,7 @@ import matplotlib.pyplot as plt
 # %matplotlib inline
 import seaborn as sns
 import streamlit as st
+import io
 
 st.code('''import pandas as pd
 from pandas import DataFrame
@@ -52,8 +53,10 @@ st.table(df.head())
 
 ### Assessing Data
 """
-dfinfo = df.info()
-st.text(dtinfo())
+buffer = io.StringIO()
+df.info(buf=buffer)
+s = buffer.getvalue()
+st.text(s)
 
 """selanjutnya kita mencek info yang terdapat dalam data untuk melihat type data dan total data yang ada
 

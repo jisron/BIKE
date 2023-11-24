@@ -104,7 +104,7 @@ st.code(df4.corr())
 ### Pertanyaan 1: Faktor yang membuat user memilih untuk menggunakan sepeda?
 """
 
-st.code(df4.nlargest(n=10, columns=['cnt']))
+st.table(df4.nlargest(n=10, columns=['cnt']))
 
 """disini kita menampilkan urutan 10 data teratas agar dapat mendapatkan insight terhadap data yang kita miliki"""
 

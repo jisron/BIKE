@@ -46,7 +46,7 @@ import seaborn as sns''')
 """
 
 df = pd.read_csv('day.csv', delimiter=",")
-df.head()
+st.table(df.head())
 
 """Meload data yang akan digunakan dengan menggunakan library pandas untuk meload file data berupa excel dengan format csv serta menampilkan 5 data teratas
 

@@ -120,7 +120,7 @@ st.pyplot(plt)
 
 """disini kita melakukan visualisasi data dengan menggabungkan diagram garis dan batang agar data kita dapat mudah dicerna"""
 fig, ax = plt.subplots()
-sns.heatmap(df4.corr(), ax=ax, annot=True)
+sns.heatmap(df4, ax=ax, annot=True)
 st.write(fig)
 
 """disini kita menggunakan heatmap untuk melihat nilai-nilai terbaik dalam data yang kita punya

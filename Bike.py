@@ -160,5 +160,5 @@ st.pyplot(plt)
 
 - Conclution pertanyaan 2
 
-  Berdasarkan pada data dua tahun terakhir dapat diketahui bahwa perilaku user dalam menggunakan sepeda lebih disukai pada saat keaadan cuaca hangat dan kondisi cuaca dalam keadaan relatif cerah, terlihat juga bahwa telah menjadi sebuah tren dalam penggunaan sepeda pada saat season 2 hingga season 3 sehingga dapat disediakan jumlah sepeda yang jauh lebih banyak dibandingkan pada saat season awal dan akhir tahun dikarenakan suhu udara cenderung lebih rendah dan keadaan cuaca tidak memungkinkan untuk bersepeda.
+  Berdasarkan pada data dua tahun terakhir dapat diketahui bahwa perilaku user dalam menggunakan sepeda lebih disukai pada saat keaadan cuaca hangat dan kondisi cuaca dalam keadaan relatif cerah, terlihat juga bahwa telah menjadi sebuah tren dalam penggunaan sepeda terjadi pada saat season 2 hingga season 3 sehingga dapat disediakan jumlah sepeda yang jauh lebih banyak dibandingkan pada saat season awal dan akhir tahun dikarenakan suhu udara cenderung lebih rendah dan keadaan cuaca tidak memungkinkan untuk bersepeda.
 """

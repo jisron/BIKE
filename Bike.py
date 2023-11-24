@@ -67,7 +67,7 @@ st.code(df.isna().sum())
 
 """proses selanjutnya kita melakukan pengecekan data kosong yang ada dengan menggunakan fitur isna() sehingga kita mengetahui apakahaterdapat dapat kosong pada data yang akan kita gunakan, berdasarkan hasil diatas tidak terdapat data kosong sehingga kita dapat langsung menggunakan data diatas."""
 
-df.duplicated().sum()
+st.code(df.duplicated().sum())
 
 """setelah mencek data kosong selanjutnya kita juga melihat apakah terdapat data duplikat dalam data kita karena sangat berpengaruh dalam proses selanjutnya, berdasarkan hasil tersebut data kita tidak terdapat data duplikat sehingga data kita dapat dikatakan bersih
 

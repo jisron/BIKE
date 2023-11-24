@@ -95,7 +95,7 @@ kita akan membuat dataframe baru tanpa menggunakan kolom windspeed
 """
 
 df4 = df3.drop(columns=['windspeed'])
-st.code.(df4.corr())
+st.code(df4.corr())
 
 """disini kita telah melakukan eksekusi data sehingga data yang kita miliki dapat digunakan untuk analisis
 

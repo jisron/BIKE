@@ -65,7 +65,7 @@ st.text(s)
 
 st.code(df.isna().sum())
 
-"""proses selanjutnya kita melakukan pengecekan data kosong yang ada dengan menggunakan fitur isna() sehingga kita mengetahui apakahaterdapat dapat kosong pada data yang akan kita gunakan, berdasarkan hasil diatas tidak terdapat data kosong sehingga kita dapat langsung menggunakan data diatas."""
+"""proses selanjutnya kita melakukan pengecekan data kosong yang ada dengan menggunakan fitur isna() sehingga kita mengetahui apakah terdapat dapat kosong pada data yang akan kita gunakan, berdasarkan hasil diatas tidak terdapat data kosong sehingga kita dapat langsung menggunakan data diatas."""
 
 st.code(df.duplicated().sum())
 

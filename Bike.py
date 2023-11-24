@@ -73,7 +73,7 @@ st.code(df.duplicated().sum())
 
 ## Exploratory Data Analysis (EDA)
 """
-codes = '''df2 = df.groupby(['season','weathersit']).agg({
+df2 = df.groupby(['season','weathersit']).agg({
     'temp': 'mean',
     'atemp': 'mean',
     'hum': 'mean',
@@ -81,8 +81,7 @@ codes = '''df2 = df.groupby(['season','weathersit']).agg({
     'cnt':'mean',
 })
 df3 = df2.mask(df2>1,df2/10000).round(2)
-df3'''
-st.code(codes, language='python')
+df3
 
 """Disini kita melakukan explorasi data yang akan digunakan untuk proses analisis kedepannya, disini kita telah melakukan pemilihan data yang akan digunakan.
 

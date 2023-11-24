@@ -95,7 +95,7 @@ kita akan membuat dataframe baru tanpa menggunakan kolom windspeed
 """
 
 df4 = df3.drop(columns=['windspeed'])
-df4.corr()
+st.code.(df4.corr())
 
 """disini kita telah melakukan eksekusi data sehingga data yang kita miliki dapat digunakan untuk analisis
 
@@ -104,7 +104,7 @@ df4.corr()
 ### Pertanyaan 1: Faktor yang membuat user memilih untuk menggunakan sepeda?
 """
 
-df4.nlargest(n=10, columns=['cnt'])
+st.code(df4.nlargest(n=10, columns=['cnt']))
 
 """disini kita menampilkan urutan 10 data teratas agar dapat mendapatkan insight terhadap data yang kita miliki"""
 
@@ -121,7 +121,7 @@ st.pyplot(plt)
 """disini kita melakukan visualisasi data dengan menggabungkan diagram garis dan batang agar data kita dapat mudah dicerna"""
 
 heat = sns.heatmap(df4, annot=True)
-st.pyplot(heat.fig)
+st.pyplot(heat)
 
 """disini kita menggunakan heatmap untuk melihat nilai-nilai terbaik dalam data yang kita punya
 

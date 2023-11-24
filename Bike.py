@@ -32,7 +32,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import streamlit as st
 
-st.code(import pandas as pd)
+st.code('import pandas as pd')
 
 """## Data Wrangling
 

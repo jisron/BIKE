@@ -25,12 +25,15 @@ Original file is located at
 """
 
 # Commented out IPython magic to ensure Python compatibility.
+import streamlit as st
 code = '''import pandas as pd
 from pandas import DataFrame
 import matplotlib.pyplot as plt
 # %matplotlib inline
 import seaborn as sns'''
 st.code(code, language='python')
+
+
 
 """## Data Wrangling
 

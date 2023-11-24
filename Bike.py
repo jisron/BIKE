@@ -32,11 +32,12 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import streamlit as st
 
-st.code('''import pandas as pd
-from pandas import DataFrame
-import matplotlib.pyplot as plt
-# %matplotlib inline
-import seaborn as sns''')
+with st.echo():
+    st.write('''import pandas as pd
+    from pandas import DataFrame
+    import matplotlib.pyplot as plt
+    # %matplotlib inline
+    import seaborn as sns''')
 
 
 

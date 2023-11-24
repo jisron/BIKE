@@ -81,8 +81,9 @@ st.code('''df2 = df.groupby(['season','weathersit']).agg({
     'windspeed' : 'mean',
     'cnt':'mean',
 })
-df3 = df2.mask(df2>1,df2/10000).round(2)''')
-df3
+df3 = df2.mask(df2>1,df2/10000).round(2)
+df3''')
+
 
 """Disini kita melakukan explorasi data yang akan digunakan untuk proses analisis kedepannya, disini kita telah melakukan pemilihan data yang akan digunakan.
 

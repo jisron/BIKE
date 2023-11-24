@@ -69,7 +69,7 @@ st.code(df.isna().sum())
 
 st.code(df.duplicated().sum())
 
-"""setelah mencek data kosong selanjutnya kita juga melihat apakah terdapat data duplikat dalam data kita karena sangat berpengaruh dalam proses selanjutnya, berdasarkan hasil tersebut data kita tidak terdapat data duplikat sehingga data kita dapat dikatakan bersih
+"""Setelah mencek data kosong selanjutnya kita juga melihat apakah terdapat duplikat data dalam data kita menggunakan fitur duplicated(), berdasarkan hasil tersebut data kita tidak terdapat duplikat data sehingga data kita dapat dikatakan bersih
 
 ## Exploratory Data Analysis (EDA)
 """

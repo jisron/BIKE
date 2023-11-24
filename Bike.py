@@ -21,7 +21,7 @@ Original file is located at
 - pertanyaan 2
   Bagaimana perubahan perilaku user dalam penggunaan sepeda?
 
-## Menyaipkan semua library yang dibutuhkan
+## Menyiapkan semua library yang dibutuhkan
 """
 
 # Commented out IPython magic to ensure Python compatibility.
@@ -32,7 +32,14 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import streamlit as st
 
-st.code('import pandas as pd')
+st.code('
+import pandas as pd
+from pandas import DataFrame
+import matplotlib.pyplot as plt
+# %matplotlib inline
+import seaborn as sns
+import streamlit as st
+        ')
 
 """## Data Wrangling
 
